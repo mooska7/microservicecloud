@@ -21,14 +21,24 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--表明是一个SpringBoot服务 start-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot</artifactId>
         </dependency>
+        <!--表明是一个SpringBoot服务 end-->
+        <!--表明是一个WEB服务-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!--表明是一个WEB服务 end-->
+        <!--监控服务 start-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!--监控服务 end-->
     </dependencies>
 
     <build>
