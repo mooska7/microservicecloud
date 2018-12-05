@@ -11,6 +11,9 @@
         <module>microservice-eureka-7002</module>
         <module>microservice-eureka-7003</module>
         <module>microservice-service-8001</module>
+        <module>microservice-service-8002</module>
+        <module>microservice-service-8003</module>
+        <module>microservice-consume-9001</module>
     </modules>
     <packaging>pom</packaging>
 
