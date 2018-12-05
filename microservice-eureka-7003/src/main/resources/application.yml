@@ -1,0 +1,13 @@
+server:
+  port: 7003
+eureka:
+  instance:
+    hostname: eureka7003.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      #        单机
+      #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      #       集群如果是在一个机器需修改host文件，注意域名是不能有下划线的
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
