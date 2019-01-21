@@ -14,6 +14,11 @@
         <module>microservice-service-8002</module>
         <module>microservice-service-8003</module>
         <module>microservice-consume-9001</module>
+        <module>microservice-consume-hystrix</module>
+        <module>microservice-consume-feign</module>
+        <module>microservice-api</module>
+        <module>microservice-api-service</module>
+        <module>microservice-api-consume</module>
     </modules>
     <packaging>pom</packaging>
 

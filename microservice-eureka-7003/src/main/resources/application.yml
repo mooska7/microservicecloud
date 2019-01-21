@@ -11,3 +11,5 @@ eureka:
       #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
       #       集群如果是在一个机器需修改host文件，注意域名是不能有下划线的
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+  server:
+    enable-self-preservation: false   #注册中心保护机制，将不可用的服务及时剔除出去

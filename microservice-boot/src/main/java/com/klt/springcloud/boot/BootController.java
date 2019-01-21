@@ -1,4 +1,4 @@
-package com.klt.springcloud.boot.controller;
+package com.klt.springcloud.boot;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;

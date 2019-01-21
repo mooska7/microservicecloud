@@ -1,4 +1,4 @@
-package com.klt.springcloud.controller;
+package com.klt.springcloud;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
